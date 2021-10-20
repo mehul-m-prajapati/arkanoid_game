@@ -43,6 +43,7 @@ function gameLoop(
     requestAnimationFrame(() => gameLoop(view, bricks));
 }
 
+// Start the main game
 function startGame(view: CanvasView) {
 
     // Reset the display
