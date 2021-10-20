@@ -9,7 +9,7 @@ import PURPLE_BRICK_IMAGE from './images/brick-purple.png';
 const canvas: HTMLCanvasElement | null = document.querySelector('#playField');
 
 // Constants
-export const STAGE_PADDING = 10;
+export const STAGE_PADDING = 0;
 export const STAGE_ROWS = 20;
 export const STAGE_COLS = 10;
 export const BRICK_PADDING = 5;
