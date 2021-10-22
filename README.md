@@ -1,4 +1,7 @@
-# arkanoid_game
+## Arkanoid
+
+### Project structure
+```
 .
 ├── index.ts             # Main game loop
 ├── setup.ts             # Constants
@@ -12,3 +15,4 @@
       ├── Brick.ts
       ├── Paddle.ts
 └── images               # png files which are used in game
+```
