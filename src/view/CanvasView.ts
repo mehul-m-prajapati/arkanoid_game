@@ -36,7 +36,7 @@ export class CanvasView {
             this.info.innerHTML = text;
     }
 
-    drawSprite(brick: Brick): void {
+    drawSprite(brick: Brick | Paddle | Ball): void {
         if (!brick) return;
 
         this.context?.drawImage(

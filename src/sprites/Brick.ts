@@ -38,4 +38,4 @@ export class Brick{
     set energy(energy: number) {
         this.brickEnergy = energy;
     }
-} 
+}
